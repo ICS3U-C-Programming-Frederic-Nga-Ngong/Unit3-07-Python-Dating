@@ -26,9 +26,9 @@ def main():
         else:
             print("Sorry, you can not date my grandchild.")
 
-    # If the age is not a valid one, the tell the user
+    # If the age is not a valid number, the tell the user
     except ValueError:
-        print("Please, enter a valid number.")
+        print("{} is not a valid number." . format(number_str)) 
 
     # And whatever the result, thank the user for using the code
     finally:
