@@ -28,7 +28,7 @@ def main():
 
     # If the age is not a valid number, the tell the user
     except ValueError:
-        print("{} is not a valid number." . format(number_str)) 
+        print("{} is not a valid number." .format(number_str)) 
 
     # And whatever the result, thank the user for using the code
     finally:
