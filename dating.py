@@ -16,7 +16,6 @@ def main():
 
         # Verify if the age is greater than 25 and less 40
         if number_int > 25 and number_int < 40:
-
             print("You can date my grandchild.")
 
         elif number_int < 0:
